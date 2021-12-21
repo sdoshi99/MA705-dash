@@ -1,1 +1,1 @@
-web: 'gunicorn MA705_Used_car_prices_dashboard:server'
+web: gunicorn MA705_Used_car_prices_dashboard:server
