@@ -14,7 +14,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets = external_stylesheets)
 
-df = pd.read_csv('./data/Used Car Clean Data.csv')
+df = pd.read_csv('./Used Car Clean Data.csv')
 
 app.layout = html.Div([html.H1('Price of Used Cars',
                       style={'fontSize': 50, 'textAlign' : 'center', 'background-color': 'MidnightBlue','color' : 'white'}),
