@@ -1,9 +1,0 @@
-setup:
-  config: {}
-build:
-  languages:
-    - python
-  packages:
-    - build-essential
-run:
-  web: 'gunicorn MA705_Used_car_prices_dashboard:server'

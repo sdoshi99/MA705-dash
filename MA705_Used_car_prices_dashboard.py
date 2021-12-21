@@ -143,7 +143,6 @@ def update_grpah(selected_model, selected_brand):
         
         fig = px.scatter(dff, x='Mileage', y='Price',
                          color='MPG',
-                         trendline='ols',
                          hover_name='Model',
                          title = 'Scatter Plot of Price and Total Miles Driven of Used Cars', 
                          labels={'MPG':'Miles per Gallon',
