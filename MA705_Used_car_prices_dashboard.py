@@ -18,12 +18,6 @@ df = pd.read_csv('./Used Car Clean Data.csv')
 
 app.layout = html.Div([html.H1('Price of Used Cars',
                       style={'fontSize': 50, 'textAlign' : 'center', 'background-color': 'MidnightBlue','color' : 'white'}),
-                       
-                     
-            html.Div([
-                html.P("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"),
-                ]),
-   
     html.Div([
     html.H2('-> Description:',
             style={'fontSize':30, 'textAlign':'left', 'color': 'MidnightBlue'}),
