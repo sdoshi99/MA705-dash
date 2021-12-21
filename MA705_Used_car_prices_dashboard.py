@@ -87,7 +87,7 @@ app.layout = html.Div([html.H1('Price of Used Cars',
         html.Br(),
         html.A("⦿ Scatter Plot.",
                href = 'https://plotly.com/python/line-and-scatter/'),
-        html.Br(),
+        html.Br(), 
         html.A("⦿ Pie Chart.",
                href = "https://plotly.com/python/pie-charts/"),
         html.Br(),
@@ -108,7 +108,6 @@ server = app.server
     Input('modelname', 'value')
 
 )
-
 def display_table(select_brand, select_model):
     table = df[(df.Brand == select_brand) & (df.Model.isin(select_model))]
     return table.to_dict('records')
