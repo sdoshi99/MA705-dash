@@ -1,7 +1,5 @@
 
 
-
-
 import dash
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
@@ -101,6 +99,8 @@ app.layout = html.Div([html.H1('Price of Used Cars',
        ])
     
 ])
+
+server = app.server
 
 @app.callback(
     Output('my_datatable', 'data'),
